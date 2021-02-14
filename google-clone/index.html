@@ -5,12 +5,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <!-- Link styles.css to the HTML -->
+    
     <!-- Add favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon-16x16.png">
+    <title>Google</title>
 </head>
+<link rel="stylesheet" href="css/styles.css">
+<style>
+    .right{
+            
+            position:absolute;
+            right:100px;
+            display:inline-block;
+            padding:10px;
+        }
+        .right img{
+            width:80px;
+            height:90px;
+            position:relative;
+            top:-15px;
+            left:80px;
+            cursor:pointer;
+        }
+        .img :hover{
+            background-color: gray;
+        }
+        .btn{
+            background-color:rgb(135, 142, 235);
+            position:relative;
+            left:80px;
+            top:-62px;
+            padding:4px ;
+            border-radius: 6px;
+            cursor:pointer;
+            
+        }
+        
+        .navbar{
+            display:inline-block;
+        }
+        .navbar li{
+            display:inline-block;
+            font-size: 14px;
+            left:-34px;
+        }
+        .navbar li a{
+            color:black;
+            text-decoration: none;
+            margin:10px;
+            padding:20px 5px;
+            position:relative;
+            top:-60px;
+            left:90px;
+            
+        }
+        
+        .navbar li a:hover{
+            text-decoration: underline;
+        }
+        .left{
+            
+            /*line-height: 20px;*/
+            position:relative;
+            margin-top: 690px;
+            left:1px;
+            display:inline-block;
+        }
+        .navbar1 li{
+            display:inline-block;
+            font-size:14px;
+            margin:10px;
+        }
+        .navbar1 li a{
+            colour:gray;
+            text-decoration: none;
+        }
+        .navbar1 li a:hover{
+            text-decoration: underline;
+        }
+        .rightbelow{
+            
+           /* line-height: 20px;*/
+            position:absolute;
+            margin-top: 690px;
+            right:34px;
+            display:inline-block;
+        }
+        .navbar2 li{
+            display:inline-block;
+            font-size:14px;
+            padding:0px 4px;
+           /* margin:10px;*/
+        }
+        .navbar2 li a{
+            colour:gray;
+            text-decoration: none;
+        }
+        .navbar2 li a:hover{
+            text-decoration: underline;
+        }
+        
+</style>
+    
 <body style="background-color: white;"> <!--Inline Styling-->
     <!-- Add header -->
+    <header class="header">
+        <div class="right">
+            <ul class="navbar">
+                <li id="first"><a href="#">Gmail</a></li>
+                <li id="second"><a href="#">Images</a></li>
+            </ul>
+            <img  src="aps.png">
+            <button class="btn">Sign in</button>
+
+        </div>
+    </header>
     <h1>Google</h1>
     <!-- Add footer -->
+    <footer class="footer">
+        <div class="container">
+        <div class="left">
+            <ul class="navbar1">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How search works</a></li>
+            </ul>
+        </div>
+        <div class="rightbelow">
+            <ul class="navbar2">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+        </div>
+    </footer>
 
 </body>
 </html>
