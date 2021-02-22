@@ -1,2 +1,142 @@
 /* CSS Styles */ 
+
+/*
+It is good practice to put long descriptive styling
+in a separate CSS file. :) 
+*/
+
+*{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+h1{
+    font-size: 60px;
+    margin-left: 11px;
+    font-family: 'Londrina Sketch', cursive;
+}
+
+.right{
+            
+    position:absolute;
+    right:100px;
+    display:inline-block;
+    padding:10px;
+}
+
+.right img{
+    width:80px;
+    height:90px;
+    position:relative;
+    top:-15px;
+    left:80px;
+    cursor:pointer;
+}
+
+/*Had no effect
+.img :hover{
+    background-color: gray;
+}
+*/
+
+.btn{
+    background-color:rgb(135, 142, 235);
+    position:relative;
+    left:80px;
+    top:-62px;
+    padding:4px ;
+    border-radius: 6px;
+    cursor:pointer;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
     
+}
+
+.btn:hover{
+    padding: 6px;
+    background-color:rgb(12, 19, 122);
+    color: blanchedalmond;
+    font-size: 23px;
+}
+
+.navbar{
+    display:inline-block;
+}
+
+.navbar li{
+    display:inline-block;
+    font-size: 20px;
+    left:-34px;
+    font-family: 'Reggae One', cursive;
+}
+
+.navbar li a{
+    color:black;
+    text-decoration: none;
+    margin:10px;
+    padding:20px 5px;
+    position:relative;
+    top:-60px;
+    left:90px;
+    
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 23px;
+}
+
+.footer{
+    
+    /*line-height: 20px;*/
+    position: relative;
+    margin-top: 42vmax;
+}
+
+.navbar1{
+    display: flex;
+    list-style: none;
+}
+
+.navbar1 li{
+    font-size: 14px;
+    margin:10px;
+}
+
+.navbar1 li a{
+    color:gray;
+    text-decoration: none;
+
+}
+
+.navbar1 li a:hover{
+    text-decoration: underline;
+    color: brown;
+    font-size: 17px;
+}
+
+/*
+NOT USED
+
+.navbar2{
+    display: flex;
+    list-style: none;
+}
+
+.navbar2 li{
+    font-size:14px;
+    padding:0px 4px;
+    margin:10px;
+}
+
+.navbar2 li a{
+    color:gray;
+    text-decoration: none;
+}
+
+.navbar2 li a:hover{
+    text-decoration: underline;
+}
+*/
