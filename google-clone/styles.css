@@ -40,12 +40,13 @@ in a separate CSS file. :)
 */
 
 .btn{
-    background-color:rgb(135, 142, 235);
+    background-color:lightgray;
     position:relative;
     left:80px;
     top:-62px;
     padding:4px ;
     border-radius: 6px;
+    border-radius: 100px;
     cursor:pointer;
     font-family: 'Reggae One', cursive;
     font-size: 20px;
@@ -54,7 +55,7 @@ in a separate CSS file. :)
 
 .btn:hover{
     padding: 6px;
-    background-color:rgb(12, 19, 122);
+    background-color:black;
     color: blanchedalmond;
     font-size: 23px;
 }
@@ -98,6 +99,8 @@ in a separate CSS file. :)
 .navbar1{
     display: flex;
     list-style: none;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .navbar1 li{
