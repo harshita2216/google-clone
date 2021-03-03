@@ -1,3 +1,5 @@
+![giphy](https://user-images.githubusercontent.com/34379958/109859738-16f57880-7c3c-11eb-919e-aa318dbd9170.gif)
+
 Project name: google-clone
 Description: this project is intended for those who are interested in learning HTML, CSS and Git.
 Level: beginners. 
