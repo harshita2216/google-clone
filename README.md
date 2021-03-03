@@ -36,3 +36,15 @@ To see which remotes you have configured run the command "git remote -v". And to
     * git commit -m "[commit name]": commit the changes you made so you can upload them.
 7. Perform a push: once the changes are ready, you upload it so you can make a pull request. Execute the command "git push origin [branch name]". The result of this will be a list with information, including a link that directs you to the page where you can do the PR.
 8. Pull Request (PR): once you have entered the link, you only have to complete the pull request with a title and a description and click on the button to request it. Then you wait for them to accept or reject your changes or contributions in the repository. 
+
+=> ABOUT THIS PROJECT :
+
+Do you realize that the only functionality of a web application that the user directly interacts with is through the web page? Implement it poorly and, to the user, the server-side becomes irrelevant! Today’s user expects a lot out of the web page: it has to load fast, expose the desired service, and be comfortable to view on all devices: from a desktop computers to tablets and mobile phones.
+
+In this PROJECT, you will learn the basic tools that every web page coder needs to know. We will start from the ground up by learning how to implement modern web pages with HTML and CSS. We will then advance to learning how to code our pages such that its components rearrange and resize themselves automatically based on the size of the user’s screen. You’ll be able to code up a web page that will be just as useful on a mobile phone as on a desktop computer. No “pinch and zoom” required! 
+
+In this project, you’ll learn how to keep track of the different versions of your code and configuration files using a popular version control system (VCS) called Git. We'll also go through how to setup an account with a service called GitHub so that you can create your very own remote repositories to store your code and configuration. 
+
+Throughout this project, you'll learn about Git's core functionality so you can understand how and why it’s used in organizations. We’ll look into both basic and more advanced features, like branches and merging. We'll demonstrate how having a working knowledge of a VCS like Git can be a lifesaver in emergency situations or when debugging. And then we'll explore how to use a VCS to work with others through remote repositories, like the ones provided by GitHub.
+
+By the end of this course, you'll be able to store your code's history in Git and collaborate with others in GitHub, where you’ll also start creating your own portfolio! 
