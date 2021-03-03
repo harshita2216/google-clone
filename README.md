@@ -1,4 +1,4 @@
-![1_WaaXnUvhvrswhBJSw4YTuQ](https://user-images.githubusercontent.com/79430960/109063871-71d12200-76c8-11eb-98c6-7927359c2bdb.png)
+![giphy](https://user-images.githubusercontent.com/34379958/109859738-16f57880-7c3c-11eb-919e-aa318dbd9170.gif)
 
 Project name: google-clone
 Description: this project is intended for those who are interested in learning HTML, CSS and Git.
